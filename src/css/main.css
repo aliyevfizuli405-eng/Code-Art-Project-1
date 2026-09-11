@@ -1,0 +1,51 @@
+@import url("./root.css");
+@import url("./subcss/__nav.css");
+
+.herobg{
+    height: 100vh;
+    background-image: url("../../src/assets/images/herobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herobg__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center;
+    padding: 200px;
+    text-align: center;
+}
+.subtitle{
+    color: var(--subtitle-color);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.title{
+    font-family: "Playfair",serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 72px;
+}
+
+.para{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.button1{
+   
+    background-color: var(--button-red);
+    border: 1px solid var(--button-red);
+    color: #fff;
+    font-weight: 500;
+}
+
+.button2{
+     font-family: "Inter",sans-serif;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 10px;
+
+}
