@@ -1,5 +1,5 @@
-@import url("../root.css");
-@import url("../subcss/__nav.css");
+@import "../css/root.css";
+@import  "../css/subcss/__nav.css";
 
 .herobg{
     height: 100vh;
@@ -32,6 +32,7 @@
     font-size: 20px;
     color: #fff;
     margin-top: 24px;
+    margin-bottom: 50px;
 }
 
 .button1{
@@ -44,11 +45,24 @@
     color: #fff;
     font-weight: 500;
 }
+.button1:hover{
+     background-color: #aa1d1d;
+    border: 1px solid #aa1d1d;
+    transition: background-color 0.8s ease-in;
+}
 
 .button2{
      font-family: "Inter",sans-serif;
     font-size: 16px;
     padding: 16px 32px;
     border-radius: 10px;
+    background-color: #11111170;
+    border: 1px solid #33333370;
+    color: white;
+}
 
+.button2:hover{
+    background-color: #111111b4;
+    border: 1px solid whitesmoke;
+    transition: background-color 0.8s ease-in;
 }
